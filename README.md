@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 🚀 CryptoHive – Cryptocurrency Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CryptoHive is a modern, responsive Progressive Web App (PWA) built with React that helps users track real-time cryptocurrency market trends, analyze historical price data with interactive charts, and manage personalized watchlists. Inspired by premium platforms like Coinbase and Binance, CryptoHive combines a clean dark theme, smooth UI animations, and powerful charting features to deliver an elegant user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 📊 View real-time market data for top cryptocurrencies
+- 📈 Interactive charts with line and bar views, including hover tooltips showing precise price points
+- ➕ Add/remove coins from a personal watchlist with localStorage persistence
+- 🧠 AI-powered chatbot using Chatbase for instant support
+- 📱 Fully responsive PWA design, optimized for desktop, tablet, and mobile devices
+- 🧩 Collapsible animated sidebar with branded CryptoHive icon
+- 🌙 Premium dark theme with Apple-inspired hover animations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend:** React 18, React Router
+- **State Management:** Redux Toolkit
+- **Styling:** Material UI (MUI)
+- **Charts:** Chart.js, chartjs-adapter-date-fns
+- **Data:** CoinGecko API
+- **Persistence:** localStorage
+- **AI Chatbot:** Chatbase
+- **Build & Deploy:** Create React App, PWA compatible
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Installation & Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/crypto-hive.git
+cd crypto-hive
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Start the development server
+npm start
