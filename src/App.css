@@ -1,0 +1,45 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 24px;
+  margin-left: 240px; /* For open sidebar */
+
+  transition: margin-left 0.3s ease;
+}
+
+.main-content.collapsed {
+  margin-left: 72px; /* For collapsed sidebar */
+}
+
+.page-container {
+  margin-top: 20px; /* Space between header and page content */
+  flex-grow: 1;
+}
+
+.chatbot-toggle {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  background-color: #4caf50 !important;
+  color: white !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.chatbot-toggle:hover {
+  background-color: #45a049 !important;
+}
